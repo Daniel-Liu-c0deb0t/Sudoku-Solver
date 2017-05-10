@@ -6,7 +6,10 @@
 1. Input the Sudoku puzzle by entering it in on the grid (1st tab) or paste a properly formatted puzzle on the text area (2nd tab).
 2. Click solve and the numbers will be calculated and displayed in both tabs.
 
-#### About The Code:
+'.' (period) is a spot with number missing
+' ' (space) is used to separate the numbers and periods
+
+#### About the Code:
 
 SudokuGui.java contains the GUI code, while SudokuSolve.java contains the solving code which the SudokuGui.java calls. SamplePuzzles.txt contains 5 sample Sudoku that have been formatted correctly to be used with the program.
 
