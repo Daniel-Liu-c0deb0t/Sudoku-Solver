@@ -6,7 +6,7 @@
 1. Input the Sudoku puzzle by entering it in on the grid (1st tab) or paste a properly formatted puzzle on the text area (2nd tab).
 2. Click solve and the numbers will be calculated and displayed in both tabs.
 
-'.' (period) is a spot with the number missing
+'.' (period or dot) is a spot with the number missing
 
 ' ' (space) is used to separate the numbers and periods
 
