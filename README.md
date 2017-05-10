@@ -1,4 +1,4 @@
-# Sudoku
+# Sudoku Solver
 ### Simple Java Sudoku solver with Swing GUI
 
 
