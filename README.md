@@ -7,6 +7,7 @@
 2. Click solve and the numbers will be calculated and displayed in both tabs.
 
 '.' (period) is a spot with number missing
+
 ' ' (space) is used to separate the numbers and periods
 
 #### About the Code:
