@@ -1,18 +1,18 @@
 # Sudoku
-##Simple Java Sudoku solver with Swing GUI
+## Simple Java Sudoku solver with Swing GUI
 
-###How to Use:
+### How to Use:
 
 1. Input the Sudoku puzzle by entering it in on the grid (1st tab) or paste a properly formatted puzzle on the text area (2nd tab).
 2. Click solve and the numbers will be calculated and displayed in both tabs.
 
-###About The Code:
+### About The Code:
 
 SudokuGui.java contains the GUI code, while SudokuSolve.java contains the solving code which the SudokuGui.java calls. SamplePuzzles.txt contains 5 sample Sudoku that have been formatted correctly to be used with the program.
 
 The code recursively generates the number to be put in the next spot that is not filled in. It prunes invalid combinations every recursive call and it backtracks when the current combination is not feasible.
 
-###5 Sample Sudoku Puzzles:
+### 5 Sample Sudoku Puzzles:
 
 ```
 1 2 . 4 . . 3 . .
@@ -64,3 +64,4 @@ The code recursively generates the number to be put in the next spot that is not
 . 8 . . 2 . . 9 .
 . . 3 5 . . 1 . .
 6 . . . . . . . .
+```
