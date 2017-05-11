@@ -4,7 +4,7 @@
 
 #### How to Use:
 
-1. Download SudokuSolver.jar
+1. Download and run SudokuSolver.jar
 2. Input the Sudoku puzzle by entering it in on the grid (1st tab) or paste a properly formatted puzzle on the text area (2nd tab).
 3. Click solve and the numbers will be calculated and displayed in both tabs.
 
