@@ -1,34 +1,33 @@
-import java.util.*;
 import javax.swing.*;
 
 public class SudokuSolve {
 	private static int[][] mat = new int[9][9];
 	private static int[][] result = new int[9][9];
 	
-	public static void main(String[] args){
-		Scanner in = new Scanner(System.in);
-		int[][] input = new int[9][9];
-		
-		try{
-			for(int i = 0; i < 9; i++){
-				String[] linei = in.nextLine().split(" ");
-				for(int j = 0; j < 9; j++){
-					if(linei[j].equals(".")){
-						input[i][j] = 0;
-					}else{
-						input[i][j] = Integer.parseInt(linei[j]);
-					}
-				}
-			}
-		}catch(Exception e){
-			System.out.println("Bad input!");
-		}
-		
-		solve(input);
-		print(getResult());
-		
-		in.close();
-	}
+//	public static void main(String[] args){
+//		Scanner in = new Scanner(System.in);
+//		int[][] input = new int[9][9];
+//		
+//		try{
+//			for(int i = 0; i < 9; i++){
+//				String[] linei = in.nextLine().split(" ");
+//				for(int j = 0; j < 9; j++){
+//					if(linei[j].equals(".")){
+//						input[i][j] = 0;
+//					}else{
+//						input[i][j] = Integer.parseInt(linei[j]);
+//					}
+//				}
+//			}
+//		}catch(Exception e){
+//			System.out.println("Bad input!");
+//		}
+//		
+//		solve(input);
+//		print(getResult());
+//		
+//		in.close();
+//	}
 	
 	public static void solve(int[][] input){
 		for(int i = 0; i < 9; i++){
